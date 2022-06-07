@@ -151,14 +151,17 @@ class _CatalogScreenState extends State<CatalogScreen>
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text(
-                  "Persol P03214S",
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      height: 1.2,
-                      letterSpacing: 0.2,
-                      color: Colors.black,
-                      fontSize: 34),
+                Padding(
+                  padding: const EdgeInsets.only(left: 20.0, top: 10),
+                  child: Text(
+                    "Persol P03214S",
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        height: 1.2,
+                        letterSpacing: 0.2,
+                        color: Colors.black,
+                        fontSize: 34),
+                  ),
                 ),
                 Container(
                   height: 105,
